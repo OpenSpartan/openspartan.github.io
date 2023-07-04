@@ -1,0 +1,42 @@
+h1, h2, h3 {
+	font-family: 'Rubik', sans-serif;
+}
+
+.heroimage {
+	width: 100%;
+}
+
+.main {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.para {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 300;
+}
+
+.github-container {
+	margin-top: 12px;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  h1 {
+	font-size: 4em;
+  }
+
+  h2 {
+  	font-size: 3.5em;
+  }
+
+  h3 {
+  	font-size: 3em;
+  }
+
+  .para {
+  	font-size: 2em;
+  }
+}
